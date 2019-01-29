@@ -1,0 +1,28 @@
+body {
+   background: linear-gradient(318deg, red, orange, yellow, green, blue, indigo, violet);
+   background-size: 2400% 2400%;
+   -webkit-animation: backgroundRainbow 100s ease infinite;
+   -moz-animation: backgroundRainbow 100s ease infinite;
+   -o-animation: backgroundRainbow 100s ease infinite;
+   animation: backgroundRainbow 100s ease infinite;
+}
+@-webkit-keyframes backgroundRainbow {
+   0%{background-position:10% 0%}
+   50%{background-position:91% 100%}
+   100%{background-position:10% 0%}
+}
+@-moz-keyframes backgroundRainbow {
+   0%{background-position:10% 0%}
+   50%{background-position:91% 100%}
+   100%{background-position:10% 0%}
+}
+@-o-keyframes backgroundRainbow {
+   0%{background-position:10% 0%}
+   50%{background-position:91% 100%}
+   100%{background-position:10% 0%}
+}
+@keyframes backgroundRainbow {
+   0%{background-position:10% 0%}
+   50%{background-position:91% 100%}
+   100%{background-position:10% 0%}
+}
