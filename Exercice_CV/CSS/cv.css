@@ -1,5 +1,5 @@
 body {
-   background: linear-gradient(318deg, red, orange, yellow, green, blue, indigo, violet);
+   background: linear-gradient(318deg, red, orange, yellow, green, blue, indigo, purple, white);
    background-size: 2400% 2400%;
    -webkit-animation: backgroundRainbow 100s ease infinite;
    -moz-animation: backgroundRainbow 100s ease infinite;
