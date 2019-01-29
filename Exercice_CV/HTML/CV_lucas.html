@@ -54,9 +54,65 @@
     </ul>
   </section>
   </article>
-
+<hr>
   <footer>
+    <form action="data" method="post">
+      <label for="nom" >Nom : </label>
+      <input type="text" id="nom" name="nom" placeholder="Saisisez votre nom">
+      <br>
+    </form>
+    <form action="data" method="post">
+      <label for="nom" >Prénom : </label>
+      <input type="text" id="nom" name="prénom" placeholder="Saisisez votre prénom">
+      <br>
+    </form>
+    <form action="data" method="post">
+      <label for="nom" >Adresse E-mail : </label>
+      <input type="text" id="nom" name="email" placeholder="Saisisez votre email">
+      <br>
 
+      <label for="">Couleur favorite :</label>
+      Bleu
+      <input type="radio" name ="couleur" id="s">
+      </label>
+
+      <label for="">
+      Rouge
+      <input type="radio" name ="couleur" id="s">
+      </label>
+
+      <label for="">
+      Jaune
+      <input type="radio" name ="couleur" id="s">
+      </label>
+    </form>
+      <br>
+    <form action="data" method="post">
+      <label for="sujet" >Sujet : </label>
+      <input type="text" id="nom" name="sujet" placeholder="Sujet">
+      <br>
+    </form>
+
+    <form method="post" action="traitement.php">
+       <p>
+           Tranche d'age :<br />
+           <input type="radio" name="age" value="moins15" id="moins15" /> <label for="moins15">Moins de 18 ans</label><br />
+           <input type="radio" name="age" value="medium15-25" id="medium15-25" /> <label for="medium15-25">18-25 ans</label><br />
+           <input type="radio" name="age" value="medium25-40" id="medium25-40" /> <label for="medium25-40">25-50 ans</label><br />
+           <input type="radio" name="age" value="plus40" id="plus40" /> <label for="plus40">Plus de 50 ans</label>
+       </p>
+    </form>
+
+    <form action="">
+      <textarea name="textarea">Message</textarea>
+    </form>
+
+    <form action="">
+    <label for=""> Reset</label>
+      <input type="reset" src="" name="" id="reset"> <br>
+    <label for=""> Envoyer</label>
+      <input type="submit" src="" name="" id="envoyer"> <br>
+    </form>
   </footer>
 </body>
 </html>
