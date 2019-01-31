@@ -1,4 +1,4 @@
-body {
+/* body {
    background: linear-gradient(318deg, red, orange, yellow, green, blue, indigo, purple, white);
    background-size: 2400% 2400%;
    -webkit-animation: backgroundRainbow 100s ease infinite;
@@ -25,4 +25,30 @@ body {
    0%{background-position:10% 0%}
    50%{background-position:91% 100%}
    100%{background-position:10% 0%}
+} */
+
+header {
+  text-align: center;
+  background-color: #a3a3c2;
+}
+
+ul, li {
+  list-style: none;
+  text-align: justify;
+}
+
+form {
+  text-align: justify;
+}
+body {
+  background-color: #b3b3cc;
+}
+.photo {
+  height: 300px;
+  width: 500px;
+
+}
+form {
+  color: blue;
+  text-align: center;
 }
