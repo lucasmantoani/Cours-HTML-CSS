@@ -1,0 +1,54 @@
+/* Exercice 1 */
+.jaune {
+  background-color: chocolate;
+  padding: 20px;
+}
+.bleu {
+  background-color: rgb(69,69,180,788);
+  padding: 20px;
+}
+.vert {
+  background-color: #93C331;
+  padding: 20px;
+}
+
+.jaune_2 {
+  background-color: chocolate;
+  position: relative;
+  padding: 20px;
+  right : 130px
+}
+.bleu_2 {
+  background-color: rgb(69,69,180,788);
+  position: relative;
+  padding: 20px;
+  left: 50px;
+}
+.vert_2 {
+  background-color: #93C331;
+  position: relative;
+  padding: 20px;
+  width: 500px;
+  margin-left: 500px;
+}
+
+.jaune_3 {
+  background-color: chocolate;
+  padding: 20px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+.bleu_3 {
+
+  background-color: rgb(69,69,180,788);
+  padding: 20px;
+  position: relative;
+}
+.vert_3 {
+  background-color: #93C331;
+  padding: 20px;
+  position: relative;
+
+}
