@@ -1,0 +1,27 @@
+/* Exercice 2 */
+.jaune_2 {
+  background-color: #FF924C;
+  position: relative;
+  padding: 20px;
+  right : 150px
+  border: 2px solid black;
+}
+.orange_2 {
+  background-color:   #FF6300;
+  position: relative;
+  padding: 20px;
+  left: 50px;
+  border: 2px solid black;
+}
+.marron_2 {
+  background-color: #7F3100;
+  position: relative;
+  padding: 20px;
+  width: 500px;
+  margin-left: 500px;
+  border: 2px solid black;
+}
+h1 {
+  font-weight: bold;
+  font-style: italic;
+}

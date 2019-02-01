@@ -1,0 +1,20 @@
+/* Exercice 1 */
+.jaune {
+  background-color: #FF924C;
+  padding: 20px;
+  border: 2px solid black;
+}
+.bleu {
+  background-color:  #FF6300;
+  padding: 20px;
+  border: 2px solid black;
+}
+.vert {
+  background-color: #7F3100;
+  padding: 20px;
+  border: 2px solid black;
+}
+h1 {
+  font-weight: bold;
+  font-style: italic;
+}

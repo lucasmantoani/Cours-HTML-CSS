@@ -138,11 +138,17 @@
 
 
 }
-div {
+/*div {
 
 border: 3px ,solid  black;
 padding: 20px;
 position: relative;
 width: 100px;
 height: 100px;
+}*/
+
+.index {
+  background-color: grey;
+  list-style: circle;
+  font-family: helvetica;
 }
