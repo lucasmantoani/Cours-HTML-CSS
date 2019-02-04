@@ -5,8 +5,18 @@
 }
 header {
   background-color: red;
-  flex: 2;
+  flex: 1.5;
 }
+h1  {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -24,12 +34,9 @@ ul, li {
   flex-direction: row;
   justify-content: space-between;
   border: 1px solid black;
+  flex:4;
 }
 
-h1  {
-  display: flex;
-  justify-content: center;
-}
 .aside1 {
   display: flex;
   flex-direction: row;
@@ -40,7 +47,6 @@ h1  {
 .aside2 {
   background-color: plum;
   flex-direction: column;
-  background-color: plum;
   padding-right: 20%;
   font-weight: bold;
 }
@@ -54,10 +60,11 @@ footer {
   justify-content: center;
   background-color: LightGreen;
   font-style: italic;
-  padding: 20px;
-  flex:0.5;
+  flex:0.8;
+  flex-direction: row;
 }
 .liste {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
 }
