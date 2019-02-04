@@ -10,8 +10,9 @@ a {
 
 h1{
   text-align: center;
-  font-family: helvetica;
 
+  font-weight: bold;
+  font-style: italic;
 }
 li {
   list-style: none;

@@ -51,3 +51,11 @@ position: relative;
 width: 100px;
 height: 100px;
 }
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: justify;
+}
+body {
+  background-color: #FFFBF4;
+}
