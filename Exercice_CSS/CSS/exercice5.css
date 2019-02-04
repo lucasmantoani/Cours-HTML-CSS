@@ -4,7 +4,7 @@
    height: 400px;
    position: relative;
    padding: 5px;
-   background-color: brown;
+   background-color: black;
 
 }
 
@@ -16,25 +16,25 @@
 }
 
 .sky {
-   background-color: aqua;
+   background-color: #267F5D;
    right: -25px;
    top: 25px;
 
 }
 .green {
-   background-color: blue;
+   background-color: #007F4F;
    left: 220px;
    bottom: 120px;
 }
 .blue  {
-   background-color: green;
+   background-color: #00FF9D;
    right: -220px;
    top: -80px;
 
 }
 
 .chocolate {
-   background-color: chocolate;
+   background-color: #4CFFBB;
    right: -25px;
    bottom: 225px;
 

@@ -1,20 +1,20 @@
 /* Exercice 2 */
-.jaune_2 {
-  background-color: #FF924C;
+.jaune_2 { /* vert clair */
+  background-color: #4CFFBB;
   position: relative;
   padding: 20px;
   right : 150px
   border: 2px solid black;
 }
-.orange_2 {
-  background-color:   #FF6300;
+.orange_2 { /* vert foncé */
+  background-color:   #007F4F;
   position: relative;
   padding: 20px;
   left: 50px;
-  border: 2px solid black;
+  border: 1px solid white;
 }
 .marron_2 {
-  background-color: #7F3100;
+  background-color: black;
   position: relative;
   padding: 20px;
   width: 500px;

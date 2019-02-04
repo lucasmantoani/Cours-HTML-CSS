@@ -1,16 +1,16 @@
 /* Exercice 1 */
 .jaune {
-  background-color: #FF924C;
+  background-color: #4CFFBB;
   padding: 20px;
   border: 2px solid black;
 }
 .bleu {
-  background-color:  #FF6300;
+  background-color:  #007F4F;
   padding: 20px;
   border: 2px solid black;
 }
 .vert {
-  background-color: #7F3100;
+  background-color: black;
   padding: 20px;
   border: 2px solid black;
 }

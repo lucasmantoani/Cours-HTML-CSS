@@ -1,14 +1,14 @@
 /* Exercice 4 */
 .marron_4 {
 
-  background:  #7F3100;
+  background:  black;
   padding: 20px;
   position: relative;
-  border: 2px solid black;
+  border: 2px solid grey;
 
 }
 .jaune_4 {
-  background: #FF924C;
+  background: #4CFFBB;
   padding: 20px;
   position: absolute;
   top: 250px;
@@ -25,7 +25,7 @@
   border: 2px solid black;
 }
 .orange_4 {
-  background:  #FF6300;
+  background:  #007F4F;
   position: absolute;
   height: 100px;
   width: 100px;
