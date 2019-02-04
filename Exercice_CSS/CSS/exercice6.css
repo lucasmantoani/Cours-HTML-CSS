@@ -1,23 +1,53 @@
-/* Exercice 1 */
-.jaune {
-  background-color: #FF924C;
-  padding: 20px;
-  border: 2px solid black;
+.box {
+   box-sizing: border-box;
+   width: 400px;
+   height: 400px;
+   position: relative;
+   padding: 5px;
+   background-color: black;
+
 }
-.bleu {
-  background-color:  #FF6300;
-  padding: 20px;
-  border: 2px solid black;
+
+.sky, .green, .blue, .chocolate {
+   border: 3px solid black;
+   position: relative;
+   width: 100px;
+   height: 100px;
 }
-.vert {
-  background-color: #7F3100;
-  padding: 20px;
-  border: 2px solid black;
+
+.sky {
+   background-color: #267F5D;
+   right: -25px;
+   top: 25px;
+
 }
-h1 {
-  font-weight: bold;
-  font-style: italic;
+.green {
+   background-color: #007F4F;
+   opacity: 0.5;
+   left: 75px;
+   bottom: 75px;
+   z-index: 4;
 }
-body {
-  background-color: #FFFBF4;
+.blue  {
+   background-color: #00FF9D;
+   right: -220px;
+   top: -80px;
+
+}
+
+.chocolate {
+   background-color: #4CFFBB;
+   opacity: 0.5;
+   right: -165px;
+   bottom: 270px;
+
+
+}
+div {
+
+border: 3px ,solid black;
+padding: 20px;
+position: relative;
+width: 100px;
+height: 100px;
 }
