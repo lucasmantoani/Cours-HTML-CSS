@@ -5,6 +5,12 @@
   top: 300px;
 }
 
+.image2 {
+  position: absolute;
+  left: 1000px;
+  top: 300px;
+}
+
 @-moz-keyframes tourne {
   0% {
     -moz-transform: rotate(0deg);
@@ -26,6 +32,16 @@
   -moz-animation: tourne 3s infinite;
   animation: tourne 3s infinite;
 }
+
+.image2 {
+  position: absolute;
+  left: 1000px;
+  top: 300px;
+  -webkit-animation: tourne 3s infinite;
+  -moz-animation: tourne 3s infinite;
+  animation: tourne 3s infinite;
+}
+
 h1 {
   display: flex;
   justify-content: center;
