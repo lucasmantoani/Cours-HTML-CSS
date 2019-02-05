@@ -2,22 +2,24 @@
 .jaune {
   background-color: #4CFFBB;
   padding: 20px;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 .bleu {
   background-color:  #007F4F;
   padding: 20px;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 .vert {
   background-color: black;
   padding: 20px;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 h1 {
   font-weight: bold;
   font-style: italic;
+  color: white;
+  text-align: center;
 }
 body {
-  background-color: #FFFBF4;
+  background-color: black;
 }
