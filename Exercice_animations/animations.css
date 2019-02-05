@@ -14,6 +14,10 @@
   }
 }
 
+@keyframes carrer1 {
+    from{ background :red;}
+    to{ background: yellow;}
+}
 #image {
   position: absolute;
   left: 300px;
