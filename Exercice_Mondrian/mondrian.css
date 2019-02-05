@@ -11,7 +11,7 @@ h1 {
   text-shadow: 1px 1px 1px grey;
 }
 
-.Contenant {
+.Contenant { /* base du grid */
 	display: grid;
 	grid-template-areas:
 
@@ -33,9 +33,9 @@ h1 {
 	'w16 w16 w16 w16 y4  r5  r5  r5  n5  n5  n5  n5  n5  n5  w15 w15 w15 w15'
 	;
 
-	grid-gap: 05px;
+	grid-gap: 08px;
 	background-color: black;
-	height: 95vh;
+	height: 100vh;
 }
  /* partie bien longue à faire lol */
 #n1 {
