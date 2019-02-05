@@ -1,0 +1,26 @@
+/* Carré qui tourne */
+#image {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+
+@-moz-keyframes tourne {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+#image {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  -webkit-animation: tourne 3s infinite;
+  -moz-animation: tourne 3s infinite;
+  animation: tourne 3s infinite;
+}
+
+/* Balle qui tombe */
