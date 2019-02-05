@@ -10,10 +10,50 @@ a {
 
 h1{
   text-align: center;
-
   font-weight: bold;
   font-style: italic;
+  background-color: CornflowerBlue;
 }
 li {
   list-style: none;
+}
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.introduction {
+  background-color: CornflowerBlue;
+}
+
+.exercices_CSS {
+  background-color: #BFB9A6;
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+.flex {
+  background-color: #E5DEC7;
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+.Mondrian {
+  background-color: #BFB9A6;
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+.CV {
+  background-color: #E5DEC7;
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+.flextest {
+  display: flex;
+  flex-direction: rpw;
+  justify-content: flex-start;
+  border: 2px solid black;
 }
