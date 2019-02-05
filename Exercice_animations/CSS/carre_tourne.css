@@ -26,5 +26,12 @@
   -moz-animation: tourne 3s infinite;
   animation: tourne 3s infinite;
 }
-
-/* Balle qui tombe */
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  color: white;
+}
+body {
+  background-color: black;
+}

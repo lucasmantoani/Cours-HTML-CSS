@@ -1,0 +1,75 @@
+/* Balle qui tombe */
+
+.boite
+{
+	height: 300px;
+	width: 45px;
+	border: 2px solid DarkGreen;
+}
+
+.rond
+{
+	height: 45px;
+	width: 45px;
+	position: relative;
+	animation-name: rebond;
+	animation-iteration-count: infinite;
+	animation-duration: 6s;
+
+}
+
+@keyframes rebond{
+
+	0%{
+		top: 0px;
+	}
+
+	10%{
+		top: 255px;
+	}
+
+  20%{
+		top: 25px;
+	}
+
+	30%{
+		top: 255px;
+	}
+
+	40%{
+		top: 45px;
+	}
+
+	50%{
+		top: 255px;
+	}
+	60%{
+		top: 65px;
+	}
+
+	70%{
+		top: 255px;
+	}
+
+	80%{
+		top: 85px;
+	}
+
+	90%{
+		top: 255px;
+	}
+
+	100%{
+		top: 105px;
+
+ }
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  color: white;
+}
+body {
+  background-color: black;
+}
