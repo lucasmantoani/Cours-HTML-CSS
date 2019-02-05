@@ -28,18 +28,18 @@
   position: absolute;
   left: 300px;
   top: 300px;
-  -webkit-animation: tourne 3s infinite;
-  -moz-animation: tourne 3s infinite;
-  animation: tourne 3s infinite;
+  -webkit-animation: tourne 2s infinite;
+  -moz-animation: tourne 2s infinite;
+  animation: tourne 2s infinite;
 }
 
 .image2 {
   position: absolute;
   left: 1000px;
   top: 300px;
-  -webkit-animation: tourne 3s infinite;
-  -moz-animation: tourne 3s infinite;
-  animation: tourne 3s infinite;
+  -webkit-animation: tourne 2s infinite;
+  -moz-animation: tourne 2s infinite;
+  animation: tourne 2s infinite;
 }
 
 h1 {
