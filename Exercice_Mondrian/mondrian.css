@@ -1,0 +1,209 @@
+body {
+	background-color: black;
+	color: white ;
+	font-family: helvetica;
+}
+
+h1 {
+  background-color: navy;
+  text-align: center;
+  border: 1px solid white;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.Contenant {
+	display: grid;
+	grid-template-areas:
+
+/* Grid, w = blanc , b = bleu etc..*/
+
+	'w1  w2  w2  w2  w2  w2  w2  w2  w3  w3  w3  w3  w3  w3  w3  w3  w4  y1'
+	'w1  b1  b1  b1  b1  b1  b1  b1  w5  w5  w5  b2  b2  b2  b2  b2  w4  y1'
+	'w1  b1  b1  b1  b1  b1  b1  b1  w5  w5  w5  b2  b2  b2  b2  b2  w4  y1'
+	'n1  w6  w6  n2  w7  w7  w7  w8  y2  y2  y2  r1  r1  r1  r1  r2  w4  y1'
+	'n1  w6  w6  n2  w7  w7  w7  w8  y2  y2  y2  r1  r1  r1  r1  r2  w4  y1'
+	'n1  w6  w6  n2  w7  w7  w7  w8  y2  y2  y2  r1  r1  r1  r1  r2  w4  y1'
+	'n1  w6  w6  n2  w7  w7  w7  w8  y2  y2  y2  r1  r1  r1  r1  r2  w4  y1'
+	'n1  w6  w6  n2  y3  r3  r3  r3  b3  b3  b3  w9  w9  w9  w9  w10 n3  n3'
+	'n1  w6  w6  n2  y3  r3  r3  r3  b3  b3  b3  w9  w9  w9  w9  w10 n3  n3'
+	'w11 r4  r4  n4  y4  w12 w12 w12 w12 w12 w13 w13 w13 w13 b4  y5  w14 w14'
+	'w11 r4  r4  n4  y4  w12 w12 w12 w12 w12 w13 w13 w13 w13 b4  y5  w14 w14'
+	'w11 r4  r4  n4  y4  w12 w12 w12 w12 w12 w13 w13 w13 w13 b4  y5  w14 w14'
+	'w11 r4  r4  n4  y4  r5  r5  r5  n5  n5  n5  n5  n5  n5  w15 w15 w15 w15'
+	'w16 w16 w16 w16 y4  r5  r5  r5  n5  n5  n5  n5  n5  n5  w15 w15 w15 w15'
+	;
+
+	grid-gap: 05px;
+	background-color: black;
+	height: 95vh;
+}
+ /* partie bien longue à faire lol */
+#n1 {
+	background-color: black;
+	grid-area: n1;
+}
+
+#n2 {
+	background-color: black;
+	grid-area: n2;
+}
+
+#n3 {
+	background-color: black;
+	grid-area: n3;
+}
+
+#n4 {
+	background-color: black;
+	grid-area: n4;
+}
+
+#w1 {
+	background-color: HoneyDew ;
+	grid-area: w1;
+}
+
+#w2 {
+	background-color: HoneyDew ;
+	grid-area: w2;
+}
+
+#w3 {
+	background-color: HoneyDew ;
+	grid-area: w3;
+}
+
+#w4 {
+	background-color: HoneyDew ;
+	grid-area: w4;
+}
+
+#w5 {
+	background-color: HoneyDew ;
+	grid-area: w5;
+}
+
+#w6 {
+	background-color: HoneyDew ;
+	grid-area: w6;
+}
+
+#w7 {
+	background-color: HoneyDew ;
+	grid-area: w7;
+}
+
+#w8 {
+	background-color: HoneyDew ;
+	grid-area: w8;
+}
+
+#w9 {
+	background-color: HoneyDew ;
+	grid-area: w9;
+}
+
+#w10 {
+	background-color: HoneyDew ;
+	grid-area: w10;
+}
+
+#w11 {
+	background-color: HoneyDew ;
+	grid-area: w11;
+}
+
+#w12 {
+	background-color: HoneyDew ;
+	grid-area: w12;
+}
+
+#w13 {
+	background-color: HoneyDew ;
+	grid-area: w13;
+}
+
+#w14 {
+	background-color: HoneyDew ;
+	grid-area: w14;
+}
+
+#w15 {
+	background-color: HoneyDew ;
+	grid-area: w15;
+}
+
+#w16 {
+	background-color: HoneyDew ;
+	grid-area: w16;
+}
+
+#r1 {
+	background-color: red;
+	grid-area: r1;
+}
+
+#r2 {
+    background-color: red;
+    grid-area: r2;
+}
+
+#r3 {
+    background-color: red;
+    grid-area: r3;
+}
+
+#r4 {
+    background-color: red;
+    grid-area: r4;
+}
+
+#r5 {
+    background-color: red;
+    grid-area: r5
+}
+
+#y1 {
+	background-color: #FFD700;
+	grid-area: y1;
+}
+
+#y2 {
+    background-color: #FFD700;
+    grid-area: y2;
+}
+
+#y3 {
+    background-color: #FFD700;
+    grid-area: y3;
+}
+
+#y4 {
+    background-color: #FFD700;
+    grid-area: y4;
+}
+
+#y5 {
+    background-color: #FFD700;
+    grid-area: y5;
+}
+
+#b1 {
+	background-color: #191970;
+	grid-area: b1;
+}
+
+#b2 {
+	background-color: #191970;
+	grid-area: b2;
+}
+
+#b3 {
+	background-color: #191970;
+	grid-area: b3;
+}
+
+#b4 {
+	background-color: #191970;
+	grid-area: b4;
+}
