@@ -164,7 +164,7 @@ h1 {
 }
 
 #y1 {
-	background-color: #FFD700;
+	background-color: #FFD700; /* couleur jaune dorée */
 	grid-area: y1;
 }
 
@@ -189,7 +189,7 @@ h1 {
 }
 
 #b1 {
-	background-color: #191970;
+	background-color: #191970; /* couleur bleue navy */
 	grid-area: b1;
 }
 
