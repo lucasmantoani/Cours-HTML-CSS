@@ -69,19 +69,11 @@ p {
   justify-content: flex-start;
   border: 1px solid black;
   flex:20%;
-  background-color: black;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
-.flextest2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  border: 1px solid black;
-  flex:20%;
-  background-color: black;
-}
+
 .navy {
   color: navy;
 }

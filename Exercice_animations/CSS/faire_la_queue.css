@@ -1,0 +1,76 @@
+/* CSS "faire la queue" */
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+.conteneur {
+    position: relative;
+    border-radius: 20px;
+    padding: 10px;
+    height: 250px;
+    width: 600px;
+    background: grey;
+}
+
+.carré1, .carré2, .carré3, .carré4, .carré5 {
+    position: absolute;
+    text-align: center;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    animation-name: faire_la_queue;
+    width: 20px;
+    top: 5px;
+    left: 10px;
+
+}
+
+.carré1 {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+
+.carré2 {
+
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+.carré3 {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+.carré4 {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+
+.carré5 {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+
+@keyframes faire_la_queue {
+  0% {top: 5px; left:10px;}
+  10% {top: 5px; left:580px; transform: rotate(360deg);}
+  25% {top: 230px; left:580px; transform: rotate(720deg);}
+  35% {top: 230px; left:10px; transform: rotate(1080deg);}
+  50% {top: 5px; left:10px; transform: rotate(1440deg);}
+  60% {top: 5px; left:580px;  transform: rotate(1800deg);}
+  75% {top: 230px; left:580px; transform: rotate(2160deg);}
+  85% {top: 230px; left:10px; transform: rotate(2520deg);}
+  100% {top: 5px; left:10px; transform: rotate(2880deg);}
+}
