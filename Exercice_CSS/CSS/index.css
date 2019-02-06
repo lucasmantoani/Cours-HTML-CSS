@@ -1,5 +1,5 @@
-.index {
-  background-color: #FFFBF4;
+html {
+  background-image:linear-gradient(black,navy);
 }
 
 a {
@@ -12,7 +12,8 @@ h1{
   text-align: center;
   font-weight: bold;
   font-style: italic;
-  background-color: CornflowerBlue;
+  background-color: black;
+  color: white;
 }
 li {
   list-style: none;
@@ -24,7 +25,8 @@ p {
 }
 
 .introduction {
-  background-color: CornflowerBlue;
+  background-color: black;
+  color: white;
 }
 
 .exercices_CSS {
@@ -62,9 +64,23 @@ p {
 
 .flextest {
   display: flex;
-  flex-direction: rpw;
+  flex-direction: row;
   justify-content: flex-start;
-  border: 2px solid black;
+  border: 1px solid black;
   flex:20%;
-  background-color: CornflowerBlue;
+  background-color: black;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.flextest2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid black;
+  flex:20%;
+  background-color: black;
+}
+.navy {
+  color: navy;
 }

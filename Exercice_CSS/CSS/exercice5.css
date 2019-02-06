@@ -5,6 +5,7 @@
    position: relative;
    padding: 5px;
    background-color: black;
+   border: 1px solid white;
 
 }
 
@@ -13,46 +14,49 @@
    position: relative;
    width: 100px;
    height: 100px;
+   border: 1px solid white;
 }
 
 .sky {
    background-color: #267F5D;
    right: -25px;
    top: 25px;
-
+   border: 1px solid white;
 }
 .green {
    background-color: #007F4F;
    left: 220px;
    bottom: 120px;
+   border: 1px solid white;
 }
 .blue  {
    background-color: #00FF9D;
    right: -220px;
    top: -80px;
-
+   border: 1px solid white;
 }
 
 .chocolate {
    background-color: #4CFFBB;
    right: -25px;
    bottom: 225px;
-
-
+   border: 1px solid white;
 }
 div {
 
-border: 3px ,solid  black;
-padding: 20px;
-position: relative;
-width: 100px;
-height: 100px;
+  border: 3px ,solid  black;
+  padding: 20px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
 }
 h1 {
   font-weight: bold;
   font-style: italic;
   text-align: justify;
+  color: white
 }
 body {
-  background-color: #FFFBF4;
+  background-color: black;
 }

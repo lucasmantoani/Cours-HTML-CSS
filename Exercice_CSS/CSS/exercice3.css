@@ -5,7 +5,7 @@
   position: absolute;
   top: 100px;
   left: 500px;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 .orange_3 { /* vert foncé */
@@ -19,13 +19,15 @@
   background-color: black;
   padding: 20px;
   position: relative;
-  border: 2px solid black;
+  border: 2px solid white;
 
 }
 h1 {
   font-weight: bold;
   font-style: italic;
+  color: white;
+  text-align: center;
 }
 body {
-  background-color: #FFFBF4;
+  background-color: black;
 }
