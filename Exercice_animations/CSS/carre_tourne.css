@@ -1,4 +1,15 @@
-/* Carré qui tourne */
+/* CSS Carré qui tourne */
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  color: white;
+}
+body {
+  background-color: black;
+}
+
 #image {
   position: absolute;
   left: 300px;
@@ -40,14 +51,4 @@
   -webkit-animation: tourne 2s infinite;
   -moz-animation: tourne 2s infinite;
   animation: tourne 2s infinite;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-  font-family: helvetica;
-  color: white;
-}
-body {
-  background-color: black;
 }

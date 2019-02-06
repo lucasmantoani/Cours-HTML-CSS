@@ -1,5 +1,6 @@
-html {
-  background-image:linear-gradient(black,navy);
+body {
+  background-image:linear-gradient(black,black,DarkBlue);
+  height: 100vh;
 }
 
 a {

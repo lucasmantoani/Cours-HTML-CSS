@@ -1,4 +1,13 @@
-/* Balle qui tombe */
+/* CSS Balle qui tombe */
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  color: white;
+}
+body {
+  background-color: black;
+}
 
 .boite
 {
@@ -63,13 +72,4 @@
 		top: 105px;
 
  }
-}
-h1 {
-  display: flex;
-  justify-content: center;
-  font-family: helvetica;
-  color: white;
-}
-body {
-  background-color: black;
 }
