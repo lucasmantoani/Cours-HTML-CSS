@@ -1,0 +1,14 @@
+.conteneur {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: helvetica;
+  color: white;
+}
+body {
+  background-color: black;
+}
