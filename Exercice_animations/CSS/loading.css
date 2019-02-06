@@ -59,7 +59,7 @@ body {
 
 }
 
-@keyframes changement{
+@-moz-keyframes changement{
     0% {opacity: 1;}
     25% {background: 0.6;}
     50% {background: 0.3;}

@@ -11,15 +11,15 @@ body {
 
 .boite
 {
-	height: 300px;
-	width: 45px;
+	height: 350px;
+	width: 95px;
 	border: 2px solid DarkGreen;
 }
 
 .rond
 {
-	height: 45px;
-	width: 45px;
+	height: 95px;
+	width: 95px;
 	position: relative;
 	animation-name: rebond;
 	animation-iteration-count: infinite;
@@ -27,7 +27,7 @@ body {
 
 }
 
-@keyframes rebond{
+@-moz-keyframes rebond{
 
 	0%{
 		top: 0px;
@@ -38,7 +38,7 @@ body {
 	}
 
   20%{
-		top: 25px;
+		top: 45px;
 	}
 
 	30%{
@@ -46,14 +46,14 @@ body {
 	}
 
 	40%{
-		top: 45px;
+		top: 65px;
 	}
 
 	50%{
 		top: 255px;
 	}
 	60%{
-		top: 65px;
+		top: 85px;
 	}
 
 	70%{
@@ -61,7 +61,7 @@ body {
 	}
 
 	80%{
-		top: 85px;
+		top: 105px;
 	}
 
 	90%{
@@ -69,7 +69,7 @@ body {
 	}
 
 	100%{
-		top: 105px;
+		top: 125px;
 
  }
 }
