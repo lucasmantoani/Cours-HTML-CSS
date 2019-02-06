@@ -85,3 +85,22 @@ p {
 .navy {
   color: navy;
 }
+.bonus {
+  display: flex;
+  justify-content: center;
+}
+.loader {
+  border-top: 14px solid #007F6D;
+  border-right: 14px solid  #00FFD9;
+  border-bottom: 14px solid #007F6D;
+  border-left: 14px solid #3DFFFA;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: bruh 4s linear infinite;
+}
+
+@keyframes bruh {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(720deg); }
+}
