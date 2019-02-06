@@ -67,7 +67,6 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  border: 1px solid black;
   flex:20%;
   flex-wrap: wrap;
   margin: 0;

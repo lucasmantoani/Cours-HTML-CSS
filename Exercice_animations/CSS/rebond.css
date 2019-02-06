@@ -33,44 +33,34 @@ body {
 	0%{
 		top: 0px;
 	}
-
 	10%{
 		top: 255px;
 	}
-
   20%{
 		top: 45px;
 	}
-
 	30%{
 		top: 255px;
 	}
-
 	40%{
 		top: 65px;
 	}
-
 	50%{
 		top: 255px;
 	}
 	60%{
 		top: 85px;
 	}
-
 	70%{
 		top: 255px;
 	}
-
 	80%{
 		top: 105px;
 	}
-
 	90%{
 		top: 255px;
 	}
-
 	100%{
 		top: 125px;
-
  }
 }

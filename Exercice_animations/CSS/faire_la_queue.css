@@ -10,6 +10,7 @@ h1 {
 body {
   background-color: black;
 }
+
 .conteneur {
     position: relative;
     border-radius: 20px;
@@ -64,6 +65,7 @@ body {
 }
 
 @keyframes faire_la_queue {
+
   0% {top: 5px; left:10px;}
   10% {top: 5px; left:580px; transform: rotate(360deg);}
   25% {top: 230px; left:580px; transform: rotate(720deg);}
