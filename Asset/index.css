@@ -56,6 +56,12 @@ p {
   border: 1px solid black;
   flex:20%;
 }
+.responsive {
+  background-color: #E5DEC7;
+  font-size: 24px;
+  border: 1px solid black;
+  flex:20%;
+}
 .squelette {
   background-color: #BFB9A6;
   font-size: 24px;
