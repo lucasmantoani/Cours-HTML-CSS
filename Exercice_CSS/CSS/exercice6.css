@@ -59,7 +59,8 @@ h1 {
   font-weight: bold;
   font-style: italic;
   text-align: justify;
+  color: white;
 }
 body {
-  background-color: #FFFBF4;
+  background-color: black;
 }
