@@ -1,0 +1,125 @@
+.conteneur0
+{
+	height: 800px;
+	width: 1200px;
+	background-color: lightgray;
+	border-radius: 15px;
+	text-align: center;
+	perspective:800px;
+	border: 3px solid black;
+}
+
+h1
+{
+	top: 355px;
+	left: 545px;
+	position: absolute;
+	font-family: monospace;
+}
+
+.conteneur1
+{
+	position: relative;
+	animation: mouvement 5s infinite linear;
+}
+
+.conteneur2
+{
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: gigote 3s infinite linear;
+}
+.conteneur2 div
+{
+	top: 0;
+	left: 0;
+	margin: 0px;
+	height: 10px;
+	width: 10px;
+	padding: 10px;
+	border: 3px solid black;
+	border-radius: 5px;
+	position: absolute;
+}
+
+.item1
+{
+	background-color: pink;
+	transform: rotateY(0deg) translateZ(75px);
+}
+
+.item2
+{
+	background-color: white;
+	transform: rotateY(60deg) translateZ(75px);
+}
+
+.item3
+{
+	background-color: lightgreen;
+	transform: rotateY(120deg) translateZ(75px);
+}
+
+.item4
+{
+	background-color: orange;
+	transform: rotateY(180deg) translateZ(75px);
+}
+
+.item5
+{
+	background-color: turquoise;
+	transform: rotateY(240deg) translateZ(75px);
+}
+
+.item6
+{
+	background-color: hotpink;
+	transform: rotateY(300deg) translateZ(75px);
+}
+
+@keyframes gigote
+{
+	0%
+	{
+		transform: rotateY(-360deg) rotateX(-360deg);
+	}
+
+	100%
+	{
+		transform: rotateY(0deg) rotateX(0deg);
+	}
+}
+
+@keyframes mouvement
+{
+	0%
+	{
+		top: 130px;
+		left: 150px;
+	}
+
+	25%
+	{
+		top: 130px;
+		left: 1050px;
+	}
+
+	50%
+	{
+		top: 680px;
+		left: 1050px;
+	}
+
+	75%
+	{
+		top: 680px;
+		left: 150px;
+	}
+
+	100%
+	{
+		top: 130px;
+		left: 150px;
+	}
+}
