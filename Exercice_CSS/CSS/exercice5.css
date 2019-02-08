@@ -55,6 +55,8 @@ h1 {
   font-weight: bold;
   font-style: italic;
   text-align: justify;
+  display: flex;
+  justify-content: center;
   color: white
 }
 body {
