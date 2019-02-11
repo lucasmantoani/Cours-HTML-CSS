@@ -43,37 +43,37 @@ body {
 	position: absolute;
 }
 
-.carré1{
+.carre1{
 	border: 1px solid white;
 	background-color: #4CFFBB;
 	transform: rotateY(0deg) translateZ(75px);
 }
 
-.carré2{
+.carre2{
 	border: 1px solid white;
 	background-color: white;
 	transform: rotateY(60deg) translateZ(75px);
 }
 
-.carré3{
+.carre3{
 	border: 1px solid white;
 	background-color: #007F4F;
 	transform: rotateY(120deg) translateZ(75px);
 }
 
-.carré4{
+.carre4{
 	border: 1px solid white;
 	background-color: white;
 	transform: rotateY(180deg) translateZ(75px);
 }
 
-.carré5{
+.carre5{
 	border: 1px solid white;
 	background-color: lightgreen;
 	transform: rotateY(240deg) translateZ(75px);
 }
 
-.carré6{
+.carre6{
 	border: 1px solid white;
 	background-color: white;
 	transform: rotateY(300deg) translateZ(75px);
