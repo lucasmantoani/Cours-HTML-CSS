@@ -1,4 +1,4 @@
-.box {
+.boite {
    box-sizing: border-box;
    width: 400px;
    height: 400px;
@@ -8,7 +8,7 @@
    border: 1px solid white;
 }
 
-.sky, .green, .blue, .chocolate {
+.bleu_clair, .vert, .bleu, .marron {
    border: 3px solid black;
    position: relative;
    width: 100px;
@@ -16,14 +16,14 @@
    border: 1px solid white;
 }
 
-.sky {
+.bleu_clair {
    background-color: #267F5D;
    right: -25px;
    top: 25px;
    border: 1px solid white;
 
 }
-.green {
+.vert {
    background-color: #007F4F;
    opacity: 0.5;
    left: 75px;
@@ -31,7 +31,7 @@
    z-index: 4;
    border: 1px solid white;
 }
-.blue  {
+.bleu  {
    background-color: #00FF9D;
    right: -220px;
    top: -80px;
@@ -39,7 +39,7 @@
 
 }
 
-.chocolate {
+.marron {
    background-color: #4CFFBB;
    opacity: 0.5;
    right: -165px;

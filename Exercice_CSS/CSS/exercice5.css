@@ -1,4 +1,5 @@
-.box {
+/* Exercice 5 - */
+.boite {
    box-sizing: border-box;
    width: 400px;
    height: 400px;
@@ -9,7 +10,7 @@
 
 }
 
-.sky, .green, .blue, .chocolate {
+.bleu_clair, .vert, .bleu, .marron {
    border: 3px solid black;
    position: relative;
    width: 100px;
@@ -17,26 +18,26 @@
    border: 1px solid white;
 }
 
-.sky {
+.bleu_clair {
    background-color: #267F5D;
    right: -25px;
    top: 25px;
    border: 1px solid white;
 }
-.green {
+.vert {
    background-color: #007F4F;
    left: 220px;
    bottom: 120px;
    border: 1px solid white;
 }
-.blue  {
+.bleu  {
    background-color: #00FF9D;
    right: -220px;
    top: -80px;
    border: 1px solid white;
 }
 
-.chocolate {
+.marron {
    background-color: #4CFFBB;
    right: -25px;
    bottom: 225px;
