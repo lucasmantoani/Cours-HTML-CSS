@@ -1,6 +1,44 @@
-h1 {
+header h1 {
+  color: white;
   display: flex;
   justify-content: center;
-  color: white;
+}
+body {
   background-color: black;
+}
+footer{
+  visibility: hidden;
+}
+
+@media print{
+  footer{
+    visibility: visible;}
+  }
+
+article{
+  display: flex;
+  color: white;
+}
+
+@media screen and (max-width : 640px){
+  article {
+    display: block;
+    color: white; }
+
+p{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 400px;
+  color: white;
+}
+
+header{
+  visibility: hidden;
+}
+
+@media screen and (min-width : 801px){
+  header{
+    visibility: visible;
+    background-color: grey;
+  }
 }
