@@ -94,7 +94,7 @@ p {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  animation: bruh 0.1s linear infinite;
+  animation: bruh 0.05s linear infinite;
 }
 
 @keyframes bruh {
