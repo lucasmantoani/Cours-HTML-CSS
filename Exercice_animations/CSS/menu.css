@@ -27,3 +27,10 @@ div {
 {
     height: 600px;
 }
+body:hover {
+	-moz-animation: blinker 0.1s infinite;
+}
+@-webkit-keyframes blinker {
+	 from { background-color: white; }
+	 to { background-color: black; }
+ }

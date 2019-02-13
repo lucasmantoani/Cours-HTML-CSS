@@ -14,7 +14,7 @@ body {
 	height: 350px;
 	width: 95px;
 	border: 6px solid DarkGreen;
-  background-color: white;
+  background-color: black;
 }
 
 .rond
@@ -24,7 +24,8 @@ body {
 	position: relative;
 	animation-name: rebond;
 	animation-iteration-count: infinite;
-	animation-duration: 6s;
+	animation-duration: 4s;
+  border-radius: 50px;
 
 }
 

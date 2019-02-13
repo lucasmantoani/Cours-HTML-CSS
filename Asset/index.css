@@ -94,10 +94,10 @@ p {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  animation: bruh 4s linear infinite;
+  animation: bruh 0.1s linear infinite;
 }
 
 @keyframes bruh {
   0% { transform: rotate(0deg); }
-  100% { transform: rotate(720deg); }
+  100% { transform: rotate(1440deg); }
 }
