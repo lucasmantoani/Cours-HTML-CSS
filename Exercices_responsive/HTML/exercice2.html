@@ -2,88 +2,90 @@
   <html lang="fr">
     <head>
       <meta charset="UTF-8">
-      <link rel="stylesheet" href="exercice2.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <link rel="stylesheet" href="../CSS/exercice2.css">
       <title>Météo du jour</title>
     </head>
 
     <body>
       <header>
-        <h1>METZ</h1>
-        <div>
-        RESPONSIVE BRUH
+        <h1 class="titre_principal">METZ, FRANCE</h1>
+        <h2>13 février 2019</h2>
+        <div class="Mis_en_avant">
+          <i class="fas fa-sun fa-6x" style="color:#00cc6a"><span>02°C</span></i>
+            <p>
+            Risque de neige: 02%<br>
+            Vent: 1350km/h , ressenti -15°C<br>
+            Précipitation: 00cm<br>
+            Préssion: 2986 hPa<br>
+            Visibilité: 25km<br>
+            </p>
         </div>
-        <h2>METZ <br> Aujourd'hui</h2>
-        <i class="fas fa-sun fa-4x" style="color:#00cc6a"></i>
-        <p>
-        temperature: 57°cel<br>
-        risque de neige: 09%<br>
-        vent: oso 1350km/h , ressenti 39°<br>
-        précipitation: 10cm<br>
-        préssion: 2986 hPa<br>
-        visibilité: 225km<br>
-        </p>
       </header>
         <section>
-          <h2>Mardi<img class="photo" src='sun.jpg' alt=""></h2>
-          <p>
-          temperature: 53°cel<br>
-          risque de neige: 99%<br>
-          vent: oso 110km/h , ressenti 32°<br>
-          précipitation: 30cm<br>
-          préssion: 4050 hPa<br>
-          visibilité: 100.9km<br>
-          </p>
+          <div class="bloc1">
+            <h2>Aujourd'hui</h2>
+            <i class="fas fa-sun fa-4x" style="color:#00cc6a"></i>
+              <p>
+              temperature: 02°C<br>
+              vent: 1350km/h , ressenti -15°C
+              </p>
+          </div>
 
-          <h2>Mercredi<img class="photo" src='thermo.jpg' alt=""></h2>
-          <p>
-          temperature: 39°cel<br>
-          risque de neige: 10%<br>
-          vent: oso 6km/h , ressenti 2°<br>
-          précipitation: 0cm<br>
-          préssion: 1036 hPa<br>
-          visibilité: 12.9km<br>
-          </p>
+          <div class="bloc2">
+            <h2>Mardi</h2>
+            <i class="fas fa-snowflake fa-4x" style="color:#00cc6a"></i>
+              <p>
+              temperature: -10°C<br>
+              vent: 110km/h , ressenti -32°
+              </p>
+          </div>
 
-          <h2>Jeudi<img class="photo" src='vent.jpg' alt=""></h2>
-          <p>
-          temperature: 104°cel<br>
-          risque de neige: 50%<br>
-          vent: oso 76km/h , ressenti 45°<br>
-          précipitation: 0cm<br>
-          préssion: 569.3 hPa<br>
-          visibilité: 103km<br>
-          </p>
+          <div class="bloc3">
+            <h2>Mercredi</h2>
+            <i class="fas fa-cloud-sun fa-4x" style="color:#00cc6a"></i>
+              <p>
+              temperature: 19°C<br>
+              vent: 6km/h , ressenti 22°
+              </p>
+          </div>
 
-          <h2>Vendredi<img class="photo" src='orage.jpg' alt=""></h2>
-          <p>
-          temperature: 800°cel<br>
-          risque de neige: 75%<br>
-          vent: oso 206km/h , ressenti 95°<br>
-          précipitation: 90cm<br>
-          préssion: 10856 hPa<br>
-          visibilité: 07km<br>
-          </p>
+          <div class="bloc4">
+            <h2>Jeudi</h2>
+            <i class="fas fa-temperature-high fa-4x" style="color:#00cc6a"></i>
+              <p>
+              temperature: 104°C<br>
+              vent: 76km/h , ressenti 150°C
+              </p>
+         </div>
 
-          <h2>Samedi<img class="photo" src='licon.jpg' alt=""></h2>
-          <p>
-          temperature: 3000°cel<br>
-          risque de neige: 200%<br>
-          vent: oso 800km/h , ressenti 295°<br>
-          précipitation: 390cm<br>
-          préssion: 10 hPa<br>
-          visibilité: 96km<br>
-          </p>
+          <div class="bloc5">
+            <h2>Vendredi</h2>
+            <i class="fas fa-meteor fa-4x" style="color:#00cc6a"></i>
+              <p>
+              temperature: 800°C<br>
+              vent: 206km/h , ressenti 777°C
+              </p>
+         </div>
 
-          <h2>Dimanche<img class="photo" src='pluie.jpg' alt=""></h2>
-          <p>
-          temperature: -85°cel<br>
-          risque de neige: 05%<br>
-          vent: oso 8000km/h , ressenti 995°<br>
-          précipitation: 390cm<br>
-          préssion: 1 hPa<br>
-          visibilité: 0.1km<br>
-          </p>
+          <div class="bloc6">
+            <h2>Samedi</h2>
+            <i class="fas fa-meteor fa-4x" style="color:#00cc6a"></i>
+              <p>
+              temperature: 3000°C<br>
+              vent: 800km/h , ressenti 5000°C
+              </p>
+         </div>
+
+          <div class="bloc7">
+            <h2>Dimanche</h2>
+            <i class="fas fa-umbrella fa-4x" style="color:#00cc6a"></i>
+              <p>
+              temperature: -85°cel<br>
+              vent: 80km/h , ressenti -110°
+              </p>
+         </div>
+
         </section>
     </body>
   </html>
