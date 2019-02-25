@@ -23,7 +23,7 @@ body {
   top: 300px;
 }
 
-@-moz-keyframes tourne {
+@keyframes tourne {
   0% {
     -moz-transform: rotate(0deg);
   }

@@ -29,7 +29,7 @@ body {
 
 }
 
-@-moz-keyframes rebond{
+@keyframes rebond{
 
 	0%{
 		top: 0px;

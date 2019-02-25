@@ -126,7 +126,7 @@ body {
     -moz-animation: blinker 0.1s infinite;
 }
 
-@-webkit-keyframes blinker {
+/*@-webkit-keyframes blinker {
    from { background-color: white; }
    to { background-color: black; }
- }
+ }*/
