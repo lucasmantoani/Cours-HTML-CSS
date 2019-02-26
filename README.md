@@ -8,9 +8,13 @@
 * Tout les exercices sont listés dans index.html, classés par repositories pour une navigation facile.
 * l'index s'ouvre automatiquement à l'ouverture du dossier.
 
-# Techno utiliée :
+# Techno utilisée :
 
 * Les languages utilisés principalement sont HTML et CSS. 
 * Il y a également du Bootstrap pour les exercices concernés.
+
+# Notes :
+* Merci encore à notre intervenant, pour la qualté des cours et sa disponibilité, et merci aux gens de ma classe principalement
+  pour les fois ou j'avais besoin de conseils.
 
 
