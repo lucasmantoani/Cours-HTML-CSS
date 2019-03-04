@@ -7,7 +7,12 @@ body
 	text-align: center;
 	box-sizing: border-box;
 }
-
+h1
+{
+	font-family: helvetica;
+	text-align: center;
+	color: aliceblue;
+}
 section
 {
 	text-align: justify;
@@ -15,10 +20,25 @@ section
 
 p
 {
-	border: 3px solid limegreen;
-	padding: 12px;
-	margin: 15px;
+	border: 3px solid lime;
+	padding: 15px;
+	margin: 20px;
 	box-sizing: border-box;
+}
+
+.txt1
+{
+	color: darkblue;
+}
+
+.txt2
+{
+	color: aliceblue;
+}
+
+.txt3
+{
+	color: darkred;
 }
 
 ul li
@@ -31,19 +51,19 @@ ul li
 	display: inline-flex;
 }
 
+li
+{
+	border: 1px solid lime;
+}
+
 
 .lg3
 {
 	width: calc(100%/3);
 }
 
-@media screen and (max-width:900px)
+@media screen and (max-width:850px)
 {
-	.md1
-	{
-		width: calc(100%/1);
-	}
-
 	.conteneur
 	{
 		display: block;
@@ -51,9 +71,14 @@ ul li
 		box-sizing: border-box;
 		width: 90%;
 	}
+	.md
+	{
+		width: calc(100%/1);
+	}
+
 }
 
-@media only screen and (max-width:700px)
+@media  screen and (max-width:650px)
 {
 	.sm1
 	{
@@ -64,13 +89,21 @@ ul li
 	{
 		visibility: hidden;
 	}
-
-	.ham
-	{
-		visibility: visible;
-	}
 	.conteneur
 	{
 		width: 100%;
+	}
+
+	.txt1, .txt3
+	{
+		color: blue;
+	}
+	.txt2
+	{
+		color: aliceblue;
+	}
+	.bruh
+	{
+		color: blue;
 	}
 }
