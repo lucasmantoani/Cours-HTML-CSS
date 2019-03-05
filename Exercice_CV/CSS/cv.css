@@ -1,61 +1,128 @@
-/* body {
-   background: linear-gradient(318deg, red, orange, yellow, green, blue, indigo, purple, white);
-   background-size: 2400% 2400%;
-   -webkit-animation: backgroundRainbow 100s ease infinite;
-   -moz-animation: backgroundRainbow 100s ease infinite;
-   -o-animation: backgroundRainbow 100s ease infinite;
-   animation: backgroundRainbow 100s ease infinite;
-}
-@-webkit-keyframes backgroundRainbow {
-   0%{background-position:10% 0%}
-   50%{background-position:91% 100%}
-   100%{background-position:10% 0%}
-}
-@-moz-keyframes backgroundRainbow {
-   0%{background-position:10% 0%}
-   50%{background-position:91% 100%}
-   100%{background-position:10% 0%}
-}
-@-o-keyframes backgroundRainbow {
-   0%{background-position:10% 0%}
-   50%{background-position:91% 100%}
-   100%{background-position:10% 0%}
-}
-@keyframes backgroundRainbow {
-   0%{background-position:10% 0%}
-   50%{background-position:91% 100%}
-   100%{background-position:10% 0%}
-} */
-
-/* Essai du background multicolore moche au dessus
-   CSS de CV_lucas.html*/
-header {
+/*    CSS de CV_lucas.html*/
+header 
+{
   text-align: center;
   background-color: #a3a3c2;
 }
 
-ul, li {
+ul, li 
+{
   list-style: none;
   text-align: justify;
   font-weight: bold;
 
 }
 
-form {
+form 
+{
   text-align: justify;
 }
-body {
+body 
+{
   background-color: #b3b3cc;
 }
-.photo {
+.photo 
+{
   height: 300px;
   width: 500px;
 
 }
-form {
+form 
+{
   color: red;
   text-align: center;
+  font-family: helvetica;
+  font-weight: bold;
 }
-.font {
+.font 
+{
   font-family: helvetica;
 }
+
+div#slider 
+{ 
+  width: 80%; max-width: 100px; 
+} 
+div#slider figure
+ {
+  position: relative; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  text-align: left;
+  animation: tourne 2s infinite;
+ }
+ div#slider figure img 
+ { 
+   width: 20%; height: auto; float: left; 
+ }
+ div#slider 
+ {
+    width: 80%; max-width: 1000px; overflow: hidden 
+ }
+ @media screen and (max-width : 1140px)
+{
+  article 
+  {
+    display: block;
+    color: white; 
+  }
+
+  p
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+    color: white;
+  }
+  body 
+  {
+    background-color: navy;
+  }
+  .photo 
+  {
+    height: 250px;
+    width: 450px;
+
+  }
+  div#slider
+  {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width : 640px)
+{
+  article 
+  {
+    display: block;
+    color: white; 
+  }
+
+  p
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 400px;
+    color: white;
+  }
+  body 
+  {
+    background-color: black;
+  }
+  .photo 
+  {
+    height: 200px;
+    width: 400px;
+
+  }
+  h1 
+  {
+    color: black;
+  }
+  div#slider
+  {
+    margin-left: 50px;
+  }
+}
+
